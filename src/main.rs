@@ -1,9 +1,11 @@
 mod challenges;
 
 fn main() {
-    let solution = challenges::challenge1A::solve();
-    println!("Challenge 1A Solution: {}", solution);
+    let (x, d) = challenges::challenge2A::solve();
 
-    let solution = challenges::challenge1B::solve();
-    println!("Challenge 1B Solution: {}", solution);
+    println!("Challenge 2A Solution: {}", x * d);
+
+    let (x, d) = challenges::challenge2B::solve();
+
+    println!("Challenge 2B Solution: {}", x * d);
 }
