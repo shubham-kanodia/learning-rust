@@ -1,7 +1,7 @@
 mod challenges;
 
 fn main() {
-    let (epsilon, gamma) = challenges::challenge3_a::solve();
+    let (oxygen_rating, co2_rating) = challenges::challenge3_b::solve();
 
-    println!("Solution for challenge 3A: {}", epsilon * gamma);
+    println!("Solution for challenge 3B: {}", oxygen_rating * co2_rating);
 }

@@ -1,4 +1,4 @@
-use std::{fs, num};
+use std::fs;
 
 fn get_most_frequent_bit(bits: Vec<char>) -> (char, char) {
     let ones_count = bits.iter().filter(|&elem| *elem == '1').count();
